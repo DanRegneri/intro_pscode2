@@ -2,3 +2,23 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Task: Develop a mapping (walking) application to find a specific set location in a large warehouse store for a customer. The customer can move north, south, east, or west.
+
+1.Set external limits of area of use
+	area=100x100 feet
+2.Set internal area of use
+	Nine feet from west wall to east wall
+		object= 2x9 feet
+			Additional object every 9 until wall termites
+	One foot from north wall to south wall
+		repeat additional object until wall repeats
+3.Set 1x1 area for customer to reach
+	area set at center of warehouse
+	
+4.Entry to warehouse at northwestern corner of building
+5.Begin navigation
+	1 ft forward= text "step"
+6.take 50 steps along north wall
+7.turn 90degreees to the right.
+8.take 50 steps forward
+9. You have reached the object area for customer

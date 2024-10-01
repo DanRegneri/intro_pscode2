@@ -2,3 +2,17 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Task:  Write pseudocode for a number guessing game. The computer chooses a random number between 1 and 10, and the player has 3 chances to guess.
+
+1. Only integers 1-10 in data set
+2. With data set(1-10) select one number 
+3. Second data set with 3 chances to select 1st data set number selected.
+4. If data set 1 selected number =1
+	then display text "YOU WIN"
+		-reset game
+		if number does not =1 then display "1 WRONG ANSWER, YOU HAVE 2 MORE GUESSES"
+5.Repeat Step 4 now with 2 as winning integer
+	If number does not equal 2, this time display"2 WRONG ANSWERS, YOU HAVE 1 MORE GUESS"
+6.Repeat step number 4 with 3 as the winning integer
+	If number does not equal 3, this time display"3 WRONG ANSWER, YOU LOSE"
+		-reset game

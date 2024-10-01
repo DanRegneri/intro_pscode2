@@ -2,3 +2,19 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Task: You need to develop a program that counts the number of items that a hardware device scans to sort for boxing packages into cases. Each package scanned is two (2) products. Each case can only fit 50 product packages. Write a program that prints numbers from 2 to 50, counting by twos.
+
+1. Value is 1 scan equals 2 boxes
+2. Limit is 50 boxes per 1 case
+	case value=25 scans
+3.Every 25 scans loop resets print file
+4.Print file equals 1 integer every 2 scan
+	Limit is 25 scan before loop resets
+5.Print function is x=2
+	x= "text" 2
+	x+1= "text" 4
+		Repeat until x=25
+6.Reset print text
+7.case has reached maximum.
+8.Reset to x=2 and begin new case
+
